@@ -1,0 +1,18 @@
+{
+  "name": "angular-buch-cdn",
+  "version": "1.0.0",
+  "description": "Angular Buch Content Delivery Network (CDN)",
+  "type": "module",
+  "devDependencies": {
+    "sharp": "^0.33.2",
+    "husky": "^9.0.11"
+  },
+  "scripts": {
+    "build": "node generate-images",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-buch/cdn.git"
+  }
+}
