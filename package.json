@@ -8,7 +8,7 @@
     "husky": "^9.0.11"
   },
   "scripts": {
-    "start": "node generate-images",
+    "build": "node generate-images",
     "prepare": "husky"
   },
   "repository": {
