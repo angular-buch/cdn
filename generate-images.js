@@ -4,7 +4,7 @@ import path from 'path';
 
 // Input and output directories
 const inputDir = 'cover';
-const outputDir = 'cover';
+const outputDir = 'cover/srcset';
 
 // Read the input directory
 fs.readdir(inputDir, (err, files) => {
